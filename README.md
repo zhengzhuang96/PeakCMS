@@ -1,4 +1,4 @@
-# hackernews-async-ts
+# PeakCms 1.0.0
 
 [Hacker News](https://news.ycombinator.com/) showcase using typescript && egg
 
@@ -7,8 +7,8 @@
 ### Development
 
 ```bash
-$ npm i
-$ npm run dev
+$ pnpm i
+$ pnpm run dev
 $ open http://localhost:7001/
 ```
 
@@ -17,15 +17,15 @@ Don't tsc compile at development mode, if you had run `tsc` then you need to `np
 ### Deploy
 
 ```bash
-$ npm run tsc
-$ npm start
+$ pnpm run tsc
+$ pnpm start
 ```
 
 ### Npm Scripts
 
-- Use `npm run lint` to check code style
-- Use `npm test` to run unit test
-- se `npm run clean` to clean compiled js at development mode once
+- Use `pnpm run lint` to check code style
+- Use `pnpm test` to run unit test
+- se `pnpm run clean` to clean compiled js at development mode once
 
 ### Requirement
 
